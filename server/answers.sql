@@ -17,4 +17,6 @@ FROM '/Users/kylekk/Downloads/answers.csv'
 DELIMITER ','
 CSV HEADER;
 
+CREATE INDEX question_idx ON answers (question_id);
+
 -- sudo -u postgres psql < server/answers.sql

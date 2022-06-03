@@ -15,4 +15,6 @@ FROM '/Users/kylekk/Downloads/questions.csv'
 DELIMITER ','
 CSV HEADER;
 
+CREATE INDEX product_idx ON questions (product_id);
+
 -- sudo -u postgres psql < server/questions.sql
