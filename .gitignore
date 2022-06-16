@@ -1,3 +1,5 @@
 node_modules/
 example.sql
 script.js
+newrelic.js
+newrelic_agent.log
